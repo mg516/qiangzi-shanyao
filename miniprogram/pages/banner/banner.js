@@ -1,22 +1,25 @@
 Page({
   data: {
     imgUrls: [
+      'cloud://qz-915205.717a-qz-915205/images/13.jpg',
+      'cloud://qz-915205.717a-qz-915205/images/4-8.png',
       // 'cloud://qz-915205.717a-qz-915205/images/1.png',
       'cloud://qz-915205.717a-qz-915205/images/2-8.png',
       // 'cloud://qz-915205.717a-qz-915205/images/3.png',
-      'cloud://qz-915205.717a-qz-915205/images/4-8.png',
       'cloud://qz-915205.717a-qz-915205/images/5-8.png',
-      'cloud://qz-915205.717a-qz-915205/images/9-8.png',
+      // 'cloud://qz-915205.717a-qz-915205/images/9-8.png',
+      'cloud://qz-915205.717a-qz-915205/images/9-8.jpg',
       // 'cloud://qz-915205.717a-qz-915205/images/10-8.png',
-      'cloud://qz-915205.717a-qz-915205/images/11-8.png',
-      'cloud://qz-915205.717a-qz-915205/images/13.jpg',
+      // 'cloud://qz-915205.717a-qz-915205/images/11-8.png',
+      'cloud://qz-915205.717a-qz-915205/images/11-8-8.jpg',
       'cloud://qz-915205.717a-qz-915205/images/14.jpg',
       'cloud://qz-915205.717a-qz-915205/images/15.png',
       'cloud://qz-915205.717a-qz-915205/images/16.jpg',
       'cloud://qz-915205.717a-qz-915205/images/17.jpg',
       'cloud://qz-915205.717a-qz-915205/images/18.jpg',
       'cloud://qz-915205.717a-qz-915205/images/19.jpg',
-      'cloud://qz-915205.717a-qz-915205/images/21.jpg',
+      // 'cloud://qz-915205.717a-qz-915205/images/21.jpg',
+      'cloud://qz-915205.717a-qz-915205/images/23.jpg',
       // 'cloud://qz-915205.717a-qz-915205/images/6.png',
       // 'cloud://qz-915205.717a-qz-915205/images/7.png'
     ],
@@ -46,7 +49,8 @@ Page({
       audio = wx.createInnerAudioContext();
     }
     audio.title = '起风了';
-    audio.src = 'cloud://qz-915205.717a-qz-915205/audio/qifengle.mp3';
+    audio.src = 'cloud://qz-915205.717a-qz-915205/audio/mengzhonghudie.mp3';
+    // audio.src = 'cloud://qz-915205.717a-qz-915205/audio/qifengle.mp3';
     // audio.src = 'cloud://qz-915205.717a-qz-915205/audio/daojianrumeng.mp3';
     audio.play();
     this.setData({
