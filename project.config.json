@@ -9,9 +9,9 @@
 		"newFeature": true,
 		"nodeModules": true
 	},
-	"appid": "wx962e71f84fd3503e",
+	"appid": "wxf2d75c8e669c244c",
 	"projectname": "music_test",
-	"libVersion": "2.4.3",
+	"libVersion": "2.5.0",
 	"condition": {
 		"search": {
 			"current": -1,

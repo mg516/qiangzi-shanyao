@@ -9,6 +9,7 @@
 <!-- <cover-image src="/images/bg.png" class="slide-image" style='width:750rpx;height:100vh;position:absolute;top:0;left:0;z-index:1;'></cover-image> -->
 <cover-view class='bgmusic' catchtap='changePlay'>
   <cover-image class="music_icon {{playState?'run':''}}"  src='/images/music_off.png'></cover-image>
-  <cover-image class='music_gif' wx:if="{{playState}}" src='/images/music.gif'></cover-image>
+  <!-- <cover-image class='music_gif' wx:if="{{playState}}" src='/images/music.gif'></cover-image> -->
 </cover-view>
 <cover-image class='switch-guide' src='/images/switch-guide.png'></cover-image>
+<cover-image catchtap="callphone" class='phone preview-item shake shake-chunk shake-constant' src='/images/phone1.png'></cover-image>

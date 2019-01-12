@@ -1,4 +1,5 @@
 /* miniprogram/pages/banner/banner.wxss */
+@import "/style/csshake.wxss";
 .swiper{height: 100vh;z-index: 2;position: relative;}
 .switch-guide {
   position:absolute;
@@ -21,8 +22,8 @@
     top: 30rpx;
     right: 25rpx;
     z-index: 10;
-    width: 50rpx;
-    height: 50rpx;
+    width: 60rpx;
+    height: 60rpx;
 }
 .bgmusic .music_icon.run{
   -webkit-animation: rotate2d 2s infinite linear;
@@ -38,4 +39,16 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+.phone{
+  position: fixed;
+  bottom: 30rpx;
+  right: 10rpx;
+  width: 80rpx;
+  height: 80rpx;
+  z-index: 2;
+  animation-name: shake-hard;
+  animation-duration: 100ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
